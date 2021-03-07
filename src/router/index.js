@@ -19,6 +19,11 @@ const routes = [
     path: '/tinymce',
     name: 'tinymce',
     component: () => import('@/views/tinymce.vue')
+  },
+  {
+    path: '/line',
+    name: 'line',
+    component: () => import('@/views/line.vue')
   }
 ]
 
